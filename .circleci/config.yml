@@ -18,7 +18,7 @@ jobs:
           name: install dependencies
           command: |
             python3 -m venv venv
-            . ml-api/bin/activate
+            . venv/bin/activate
             make install
       - save_cache:
           paths:
