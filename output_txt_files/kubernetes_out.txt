@@ -1,3 +1,11 @@
+pod/udacity-ml-project created
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   2m34s
+
+NAME                     READY   STATUS              RESTARTS   AGE
+pod/udacity-ml-project   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+
 NAME                     READY   STATUS    RESTARTS   AGE
 pod/udacity-ml-project   1/1     Running   0          11m
 Forwarding from 127.0.0.1:8000 -> 80
